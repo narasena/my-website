@@ -1,0 +1,84 @@
+# Node.js / Next.js (Frontend)
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Go (Backend)
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+vendor/
+
+# Go test and coverage files
+*.test
+*.out
+cover.out
+coverage/
+
+# Environment variables
+.env
+*.env
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/tmp
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency lock files (if not committed)
+# Note: You may want to commit package-lock.json or go.mod/go.sum
+# package-lock.json
+# yarn.lock
+# go.mod
+# go.sum
+
+# Logs and temporary files
+logs/
+*.log.*
+temp/
+tmp/
+
+# Deployment and CI/CD
+.vercel/
+.render/
+fly.toml
+
+# MongoDB local data (if testing locally)
+data/
+mongod.lock
+
+# Miscellaneous
+*.bak
+*.gho
+*.orig
+*.tmp
